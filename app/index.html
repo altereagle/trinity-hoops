@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- this is your style sheet -->
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    
+    <!-- These are your libraries (aframe, jquery, etc) -->
+    <script type="text/javascript" src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  
+  <body>
+    <game-title>HOOPS</game-title>
+
+    <a-scene vr-mode-ui="enabled: false">
+      <a-sphere
+                id="bouncing-ball"
+                position="0 1.25 -4"
+                radius="1.25"
+                color="#fff"
+                
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNaItB2SBsaG20UNJ0n3csrEJK1jKgpgSy6-8jZl1Y7TWCXXf_"
+                shadow>
+      </a-sphere>
+      
+      <a-plane
+               position="0 0 -4"
+               rotation="-90 0 0"
+               width="75"
+               height="50"
+            
+               src="https://static.vecteezy.com/system/resources/previews/000/183/762/non_2x/basketball-court-flat-style-vector.jpg"
+               shadow>
+      </a-plane>
+      
+    </a-scene>
+  </body>
+  
+  <!-- This is your custom code -->
+  <script type="text/javascript" src="code.js"></script>
+</html>
