@@ -1,4 +1,5 @@
-var spherePosition = ("#bouncing-ball").attr("position");
+/* globals $*/
+var spherePosition = $("#bouncing-ball").attr("position");
 
 // Listen for keyup events
 document.addEventListener("keyup", function(event){
@@ -25,7 +26,7 @@ document.addEventListener("keyup", function(event){
    
     
     
-    
+  
     
     
     //part where ball goes down

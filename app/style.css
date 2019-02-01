@@ -5,9 +5,9 @@ game-title {
   z-index: 9999;
   position: absolute;
   top: 20px;
-  left: 420px;
+  left: 640px;
   padding: 10px;
-  color: white;
+  color: yellow;
   font-size:2em;
   display: flex;
   align-items: center;
