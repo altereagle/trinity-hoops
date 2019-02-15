@@ -26,7 +26,7 @@ document.addEventListener("keyup", function(event){
    
     
     
-  
+    
     
     
     //part where ball goes down
